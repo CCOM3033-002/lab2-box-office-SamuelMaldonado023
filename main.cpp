@@ -6,7 +6,12 @@
 #include <iomanip>
 using namespace std;
 
+
+//iniciating program
 int main(){
+
+// iniciating variables
+
     string moviename;
     double adulttickets = 10.00;
     double childtickets = 6.00;
@@ -27,8 +32,6 @@ int main(){
     cout << setw(printwidth) << left << "Enter the amount of child tickets sold:" << right << setw(printsmallwidth);
         cin >> amountchildren;
         cin.ignore(100,'\n');
-
-
 
 // Calculate revenue
 totalrevenue = (amountadults * adulttickets) + (amountchildren * childtickets);
